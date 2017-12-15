@@ -1,0 +1,288 @@
+###############################################################
+#                                                             #
+#  KOI8-R.LCM                                                 #
+#                                                             #
+#  LCM (Lout Character Mapping) file for RFC1489 KOI8-R.      #
+#                                                             #
+#  This is verbatim KOI8-R mapping primary useful for         #
+#  monospaced fonts like Courier intended for screenshots.    #
+#  All the line-drawing characters are mapped; additional     #
+#  typographic niceties (e.g. guillemot) are stuffed into C0. #
+#                                                             #
+#  RFC1489 encodes U+2219 BULLET OPERATOR at 149 and that     #
+#  maps to "periodcentered" glyph, but "periodcentered" is    #
+#  also a glyph for U+00B7 MIDDLE DOT that RFC1489 has        #
+#  encoded at 158.  I think this is a bug in RFC1489.  So I   #
+#  map "bullet" glyph (for U+2022 BULLET) at 149 instead.     #
+#                                                             #
+#  Valeriy Ushakov <uwe@ptc.spb.ru>                           #
+#  24 December 2000                                           #
+#                                                             #
+#  This file has been placed in the public domain by its      #
+#  author.                                                    #
+#                                                             #
+#  Dec- Octal   Character       Functions ...                 #
+#  imal code    name                                          #
+#  code                                                       #
+#                                                             #
+###############################################################
+
+000	000	-none-
+001	001	ellipsis
+002	002	quotesinglbase
+003	003	quoteleft
+004	004	quoteright
+005	005	quotedblbase
+006	006	quotedblleft
+007	007	quotedblright
+008	010	guilsinglleft
+009	011	guilsinglright
+010	012	-none-
+011	013	guillemotleft
+012	014	guillemotright
+013	015	-none-
+014	016	endash
+015	017	emdash
+016	020	dagger
+017	021	daggerdbl
+018	022	perthousand
+019	023	registered
+020	024	trademark
+021	025	paragraph
+022	026	section
+023	027	afii61352
+024	030	florin
+025	031	currency
+026	032	logicalnot
+027	033	minus
+028	034	plusminus
+029	035	notequal
+030	036	brokenbar
+031	037	infinity
+
+032	040	space
+033	041	exclam
+034	042	quotedbl
+035	043	numbersign
+036	044	dollar
+037	045	percent
+038	046	ampersand
+039	047	quotesingle
+040	050	parenleft
+041	051	parenright
+042	052	asterisk
+043	053	plus
+044	054	comma
+045	055	hyphen
+046	056	period
+047	057	slash
+048	060	zero
+049	061	one
+050	062	two
+051	063	three
+052	064	four
+053	065	five
+054	066	six
+055	067	seven
+056	070	eight
+057	071	nine
+058	072	colon
+059	073	semicolon
+060	074	less
+061	075	equal
+062	076	greater
+063	077	question
+064	100	at
+065	101	A		LC a;
+066	102	B		LC b;
+067	103	C		LC c;
+068	104	D		LC d;
+069	105	E		LC e;
+070	106	F		LC f;
+071	107	G		LC g;
+072	110	H		LC h;
+073	111	I		LC i;
+074	112	J		LC j;
+075	113	K		LC k;
+076	114	L		LC l;
+077	115	M		LC m;
+078	116	N		LC n;
+079	117	O		LC o;
+080	120	P		LC p;
+081	121	Q		LC q;
+082	122	R		LC r;
+083	123	S		LC s;
+084	124	T		LC t;
+085	125	U		LC u;
+086	126	V		LC v;
+087	127	W		LC w;
+088	130	X		LC x;
+089	131	Y		LC y;
+090	132	Z		LC z;
+091	133	bracketleft
+092	134	backslash
+093	135	bracketright
+094	136	asciicircum
+095	137	underscore
+096	140	grave
+097	141	a		UC A;
+098	142	b		UC B;
+099	143	c		UC C;
+100	144	d		UC D;
+101	145	e		UC E;
+102	146	f		UC F;
+103	147	g		UC G;
+104	150	h		UC H;
+105	151	i		UC I;
+106	152	j		UC J;
+107	153	k		UC K;
+108	154	l		UC L;
+109	155	m		UC M;
+110	156	n		UC N;
+111	157	o		UC O;
+112	160	p		UC P;
+113	161	q		UC Q;
+114	162	r		UC R;
+115	163	s		UC S;
+116	164	t		UC T;
+117	165	u		UC U;
+118	166	v		UC V;
+119	167	w		UC W;
+120	170	x		UC X;
+121	171	y		UC Y;
+122	172	z		UC Z;
+123	173	braceleft
+124	174	bar
+125	175	braceright
+126	176	asciitilde
+127	177	-none-
+
+128	200	SF100000
+129	201	SF110000
+130	202	SF010000
+131	203	SF030000
+132	204	SF020000
+133	205	SF040000
+134	206	SF080000
+135	207	SF090000
+136	210	SF060000
+137	211	SF070000
+138	212	SF050000
+139	213	upblock
+140	214	dnblock
+141	215	block
+142	216	lfblock
+143	217	rtblock
+144	220	ltshade
+145	221	shade
+146	222	dkshade
+147	223	integraltp
+148	224	filledbox
+149	225	bullet
+150	226	radical
+151	227	approxequal
+152	230	lessequal
+153	231	greaterequal
+154	232	space
+155	233	integralbt
+156	234	degree
+157	235	twosuperior
+158	236	periodcentered
+159	237	divide
+
+160	240	SF430000
+161	241	SF240000
+162	242	SF510000
+163	243	uni0451	UC uni0401;
+164	244	SF520000
+165	245	SF390000
+166	246	SF220000
+167	247	SF210000
+168	250	SF250000
+169	251	SF500000
+170	252	SF490000
+171	253	SF380000
+172	254	SF280000
+173	255	SF270000
+174	256	SF260000
+175	257	SF360000
+176	260	SF370000
+177	261	SF420000
+178	262	SF190000
+179	263	uni0401	LC uni0451;
+180	264	SF200000
+181	265	SF230000
+182	266	SF470000
+183	267	SF480000
+184	270	SF410000
+185	271	SF450000
+186	272	SF460000
+187	273	SF400000
+188	274	SF540000
+189	275	SF530000
+190	276	SF440000
+191	277	copyright
+192	300	uni044E	UC uni042E;
+193	301	uni0430	UC uni0410;
+194	302	uni0431	UC uni0411;
+195	303	uni0446	UC uni0426;
+196	304	uni0434	UC uni0414;
+197	305	uni0435	UC uni0415;
+198	306	uni0444	UC uni0424;
+199	307	uni0433	UC uni0413;
+200	310	uni0445	UC uni0425;
+201	311	uni0438	UC uni0418;
+202	312	uni0439	UC uni0419;
+203	313	uni043A	UC uni041A;
+204	314	uni043B	UC uni041B;
+205	315	uni043C	UC uni041C;
+206	316	uni043D	UC uni041D;
+207	317	uni043E	UC uni041E;
+208	320	uni043F	UC uni041F;
+209	321	uni044F	UC uni042F;
+210	322	uni0440	UC uni0420;
+211	323	uni0441	UC uni0421;
+212	324	uni0442	UC uni0422;
+213	325	uni0443	UC uni0423;
+214	326	uni0436	UC uni0416;
+215	327	uni0432	UC uni0412;
+216	330	uni044C	UC uni042C;
+217	331	uni044B	UC uni042B;
+218	332	uni0437	UC uni0417;
+219	333	uni0448	UC uni0428;
+220	334	uni044D	UC uni042D;
+221	335	uni0449	UC uni0429;
+222	336	uni0447	UC uni0427;
+223	337	uni044A	UC uni042A;
+224	340	uni042E	LC uni044E;
+225	341	uni0410	LC uni0430;
+226	342	uni0411	LC uni0431;
+227	343	uni0426	LC uni0446;
+228	344	uni0414	LC uni0434;
+229	345	uni0415	LC uni0435;
+230	346	uni0424	LC uni0444;
+231	347	uni0413	LC uni0433;
+232	350	uni0425	LC uni0445;
+233	351	uni0418	LC uni0438;
+234	352	uni0419	LC uni0439;
+235	353	uni041A	LC uni043A;
+236	354	uni041B	LC uni043B;
+237	355	uni041C	LC uni043C;
+238	356	uni041D	LC uni043D;
+239	357	uni041E	LC uni043E;
+240	360	uni041F	LC uni043F;
+241	361	uni042F	LC uni044F;
+242	362	uni0420	LC uni0440;
+243	363	uni0421	LC uni0441;
+244	364	uni0422	LC uni0442;
+245	365	uni0423	LC uni0443;
+246	366	uni0416	LC uni0436;
+247	367	uni0412	LC uni0432;
+248	370	uni042C	LC uni044C;
+249	371	uni042B	LC uni044B;
+250	372	uni0417	LC uni0437;
+251	373	uni0428	LC uni0448;
+252	374	uni042D	LC uni044D;
+253	375	uni0429	LC uni0449;
+254	376	uni0427	LC uni0447;
+255	377	uni042A	LC uni044A;

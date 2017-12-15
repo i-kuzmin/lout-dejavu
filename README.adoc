@@ -1,0 +1,34 @@
+== DejaVu fonts for Lout ==
+
+Package contains AFM files for TrueType DejaVu fonts.
+To enable font family use `dejavu` include.
+[source,lout]
+----
+@SysInclude {doc}
+@SysInclude {dejavu}
+
+@Document
+    @InitialFont { DejaVuSerif Base 12p }
+----
+
+Repository also includes koi8-r mapping, which allows use Cyrillic characters.
+It should be noted, that source file have to be encoded in koi8 to use
+the facility.
+
+[source,lout]
+----
+@SysInclude {doc}
+@SysInclude {dejavu}
+
+@Document
+  @InitialLanguage { Russian }
+  @InitialFont { DejaVuSans Base 12p}
+
+@Text @Begin
+DejaVu Serif
+@LLP @B  { Дежавю Сериф Жирный - DejaVu Serif Bold }
+@LLP @I  { Дежавю Сериф Курсив - DejaVu Serif Slope }
+@LLP @BI { Дежавю Сериф Жирный Курсив - DejaVu Serif Bold Slope }
+@End @Text
+----
+
