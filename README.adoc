@@ -22,7 +22,7 @@ the facility.
 
 @Document
   @InitialLanguage { Russian }
-  @InitialFont { DejaVuSans Base 12p }
+  @InitialFont { DejaVuSans Base 12p}
 
 @Text @Begin
 DejaVu Serif
