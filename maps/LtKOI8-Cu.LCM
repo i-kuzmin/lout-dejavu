@@ -1,19 +1,10 @@
 ###############################################################
 #                                                             #
-#  KOI8-R.LCM                                                 #
+#  LtKOI8.LCM                                                 #
 #                                                             #
-#  LCM (Lout Character Mapping) file for RFC1489 KOI8-R.      #
-#                                                             #
-#  This is verbatim KOI8-R mapping primary useful for         #
-#  monospaced fonts like Courier intended for screenshots.    #
-#  All the line-drawing characters are mapped; additional     #
-#  typographic niceties (e.g. guillemot) are stuffed into C0. #
-#                                                             #
-#  RFC1489 encodes U+2219 BULLET OPERATOR at 149 and that     #
-#  maps to "periodcentered" glyph, but "periodcentered" is    #
-#  also a glyph for U+00B7 MIDDLE DOT that RFC1489 has        #
-#  encoded at 158.  I think this is a bug in RFC1489.  So I   #
-#  map "bullet" glyph (for U+2022 BULLET) at 149 instead.     #
+#  LCM (Lout Character Mapping) file for KOI8-* family.       #
+#  Based on KOI8-C (of which -U and -R are subsets).          #
+#  http://members.linuxstart.com/~winitzki/koi8-extended.html #
 #                                                             #
 #  Valeriy Ushakov <uwe@ptc.spb.ru>                           #
 #  24 December 2000                                           #
@@ -28,37 +19,37 @@
 ###############################################################
 
 000	000	-none-
-001	001	ellipsis
-002	002	quotesinglbase
-003	003	quoteleft
-004	004	quoteright
-005	005	quotedblbase
-006	006	quotedblleft
-007	007	quotedblright
-008	010	guilsinglleft
-009	011	guilsinglright
+001	001	ff
+002	002	fi
+003	003	fl
+004	004	ffi
+005	005	ffl
+006	006	dotlessi
+007	007	dotlessj
+008	010	breve
+009	011	caron
 010	012	-none-
-011	013	guillemotleft
-012	014	guillemotright
+011	013	cedilla
+012	014	circumflex
 013	015	-none-
-014	016	endash
-015	017	emdash
-016	020	dagger
-017	021	daggerdbl
-018	022	perthousand
-019	023	registered
-020	024	trademark
-021	025	paragraph
-022	026	section
-023	027	afii61352
-024	030	florin
-025	031	currency
-026	032	logicalnot
-027	033	minus
-028	034	plusminus
-029	035	notequal
-030	036	brokenbar
-031	037	infinity
+014	016	dotaccent
+015	017	grave
+016	020	hungarumlaut
+017	021	macron
+018	022	ogonek
+019	023	ring
+020	024	tilde
+021	025	-none-
+022	026	-none-
+023	027	-none-
+024	030	minus
+025	031	quotesingle
+026	032	daggerdbl
+027	033	paragraph
+028	034	perthousand
+029	035	trademark
+030	036	florin
+031	037	currency
 
 032	040	space
 033	041	exclam
@@ -67,7 +58,7 @@
 036	044	dollar
 037	045	percent
 038	046	ampersand
-039	047	quotesingle
+039	047	quoteright
 040	050	parenleft
 041	051	parenright
 042	052	asterisk
@@ -124,7 +115,7 @@
 093	135	bracketright
 094	136	asciicircum
 095	137	underscore
-096	140	grave
+096	140	quoteleft
 097	141	a		UC A;
 098	142	b		UC B;
 099	143	c		UC C;
@@ -157,71 +148,72 @@
 126	176	asciitilde
 127	177	-none-
 
-128	200	SF100000
-129	201	SF110000
-130	202	SF010000
-131	203	SF030000
-132	204	SF020000
-133	205	SF040000
-134	206	SF080000
-135	207	SF090000
-136	210	SF060000
-137	211	SF070000
-138	212	SF050000
-139	213	upblock
-140	214	dnblock
-141	215	block
-142	216	lfblock
-143	217	rtblock
-144	220	ltshade
-145	221	shade
-146	222	dkshade
-147	223	integraltp
-148	224	filledbox
+128	200	afii10051	LC afii10099;
+129	201	afii10052	LC afii10100;
+130	202	quotesinglbase
+131	203	afii10100	UC afii10052;
+132	204	quotedblbase
+133	205	ellipsis
+134	206	dagger
+135	207	section
+136	210	Euro
+137	211	dieresis
+138	212	afii10058	LC afii10106;
+139	213	guilsinglleft
+140	214	afii10059	LC afii10107;
+141	215	afii10061	LC afii10109;
+142	216	afii10060	LC afii10108;
+143	217	afii10145	LC afii10193;
+144	220	afii10099	UC afii10051;
+145	221	-none-
+146	222	-none-
+147	223	quotedblleft
+148	224	quotedblright
 149	225	bullet
-150	226	radical
-151	227	approxequal
-152	230	lessequal
-153	231	greaterequal
-154	232	space
-155	233	integralbt
-156	234	degree
-157	235	twosuperior
-158	236	periodcentered
-159	237	divide
+150	226	endash
+151	227	emdash
+152	230	sterling
+153	231	periodcentered
+154	232	afii10106	UC afii10058;
+155	233	guilsinglright
+156	234	afii10107	UC afii10059;
+157	235	afii10109	UC afii10061;
+158	236	afii10108	UC afii10060;
+159	237	afii10193	UC afii10145;
 
-160	240	SF430000
-161	241	SF240000
-162	242	SF510000
+160	240	space
+161	241	afii10196	UC afii10148;
+162	242	afii10194	UC afii10146;
 163	243	uni0451	UC uni0401;
-164	244	SF520000
-165	245	SF390000
-166	246	SF220000
-167	247	SF210000
-168	250	SF250000
-169	251	SF500000
-170	252	SF490000
-171	253	SF380000
-172	254	SF280000
-173	255	SF270000
-174	256	SF260000
-175	257	SF360000
-176	260	SF370000
-177	261	SF420000
-178	262	SF190000
+164	244	afii10101	UC afii10053;
+165	245	afii10102	UC afii10054;
+166	246	afii10103	UC afii10055;
+167	247	afii10104	UC afii10056;
+168	250	afii10105	UC afii10057;
+169	251	registered
+170	252	psi		UC Psi;
+171	253	guillemotleft
+172	254	afii10195	UC afii10147;
+173	255	afii10098	UC afii10050;
+174	256	afii10110	UC afii10062;
+175	257	acute
+176	260	degree
+177	261	afii10148	LC afii10196;
+178	262	afii10146	LC afii10194;
 179	263	uni0401	LC uni0451;
-180	264	SF200000
-181	265	SF230000
-182	266	SF470000
-183	267	SF480000
-184	270	SF410000
-185	271	SF450000
-186	272	SF460000
-187	273	SF400000
-188	274	SF540000
-189	275	SF530000
-190	276	SF440000
+180	264	afii10053	LC afii10101;
+181	265	afii10054	LC afii10102;
+182	266	afii10055	LC afii10103;
+183	267	afii10056	LC afii10104;
+184	270	afii10057	LC afii10105;
+185	271	afii61352
+186	272	Psi		LC psi;
+187	273	guillemotright
+188	274	afii10147	LC afii10195;
+189	275	afii10050	LC afii10098;
+190	276	afii10062	LC afii10110;
 191	277	copyright
+
 192	300	uni044E	UC uni042E;
 193	301	uni0430	UC uni0410;
 194	302	uni0431	UC uni0411;

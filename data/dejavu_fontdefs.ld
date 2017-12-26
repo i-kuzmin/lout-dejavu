@@ -6,7 +6,7 @@
     @Face { "Base" }
     @Name { "DejaVuSans" }
     @Metrics { "DeSa" }
-    @Mapping { "KOI8-Ru.LCM" }
+    @Mapping { "LtKOI8-Cu.LCM" }
 }
 
 {
@@ -16,7 +16,7 @@
     @Face { "Bold" }
     @Name { "DejaVuSans-Bold" }
     @Metrics { "DeSa-Bo" }
-    @Mapping { "KOI8-Ru.LCM" }
+    @Mapping { "LtKOI8-Cu.LCM" }
 }
 
 {
@@ -26,7 +26,7 @@
     @Face { "Slope" }
     @Name { "DejaVuSans-Oblique" }
     @Metrics { "DeSa-Ob" }
-    @Mapping { "KOI8-Ru.LCM" }
+    @Mapping { "LtKOI8-Cu.LCM" }
 }
 {
     @FontDef
@@ -35,7 +35,7 @@
     @Face { "Light" }
     @Name { "DejaVuSans-ExtraLight" }
     @Metrics { "DeSa-ExLt" }
-    @Mapping { "KOI8-Ru.LCM" }
+    @Mapping { "LtKOI8-Cu.LCM" }
 }
 
 {
@@ -45,7 +45,7 @@
     @Face { "BoldSlope" }
     @Name { "DejaVuSans-BoldOblique" }
     @Metrics { "DeSa-BoOb" }
-    @Mapping { "KOI8-Ru.LCM" }
+    @Mapping { "LtKOI8-Cu.LCM" }
 }
 
 # Sans Condensed
@@ -56,7 +56,7 @@
     @Face { "Base" }
     @Name { "DejaVuSansCondensed" }
     @Metrics { "DeSaCo" }
-    @Mapping { "KOI8-Ru.LCM" }
+    @Mapping { "LtKOI8-Cu.LCM" }
 }
 
 {
@@ -66,7 +66,7 @@
     @Face { "Bold" }
     @Name { "DejaVuSansCondensed-Bold" }
     @Metrics { "DeSaCo-Bo" }
-    @Mapping { "KOI8-Ru.LCM" }
+    @Mapping { "LtKOI8-Cu.LCM" }
 }
 
 {
@@ -76,7 +76,7 @@
     @Face { "Slope" }
     @Name { "DejaVuSansCondensed-Oblique" }
     @Metrics { "DeSaCo-Ob" }
-    @Mapping { "KOI8-Ru.LCM" }
+    @Mapping { "LtKOI8-Cu.LCM" }
 }
 
 {
@@ -86,7 +86,7 @@
     @Face { "BoldSlope" }
     @Name { "DejaVuSansCondensed-BoldOblique" }
     @Metrics { "DeSaCo-BoOb" }
-    @Mapping { "KOI8-Ru.LCM" }
+    @Mapping { "LtKOI8-Cu.LCM" }
 }
 
 # Sans Mono
@@ -97,7 +97,7 @@
     @Face { "Base" }
     @Name { "DejaVuSansMono" }
     @Metrics { "DeSaMo" }
-    @Mapping { "KOI8-Ru.LCM" }
+    @Mapping { "LtKOI8-Cu.LCM" }
 }
 
 {
@@ -107,7 +107,7 @@
     @Face { "Bold" }
     @Name { "DejaVuSansMono-Bold" }
     @Metrics { "DeSaMo-Bo" }
-    @Mapping { "KOI8-Ru.LCM" }
+    @Mapping { "LtKOI8-Cu.LCM" }
 }
 
 {
@@ -117,7 +117,7 @@
     @Face { "Slope" }
     @Name { "DejaVuSansMono-Oblique" }
     @Metrics { "DeSaMo-Ob" }
-    @Mapping { "KOI8-Ru.LCM" }
+    @Mapping { "LtKOI8-Cu.LCM" }
 }
 
 {
@@ -127,7 +127,7 @@
     @Face { "BoldSlope" }
     @Name { "DejaVuSansMono-BoldOblique" }
     @Metrics { "DeSaMo-BoOb" }
-    @Mapping { "KOI8-Ru.LCM" }
+    @Mapping { "LtKOI8-Cu.LCM" }
 }
 
 # Serif
@@ -138,7 +138,7 @@
     @Face    {"Base"}
     @Name    {"DejaVuSerif"}
     @Metrics {"DeSe"}
-    @Mapping {"KOI8-Ru.LCM"}
+    @Mapping {"LtKOI8-Cu.LCM"}
 }
 
 {
@@ -148,7 +148,7 @@
     @Face    {"Bold"}
     @Name    {"DejaVuSerif-Bold"}
     @Metrics {"DeSe-Bo"}
-    @Mapping {"KOI8-Ru.LCM"}
+    @Mapping {"LtKOI8-Cu.LCM"}
 }
 
 {
@@ -158,7 +158,7 @@
     @Face    {"Slope"}
     @Name    {"DejaVuSerif-Italic"}
     @Metrics {"DeSe-It"}
-    @Mapping {"KOI8-Ru.LCM"}
+    @Mapping {"LtKOI8-Cu.LCM"}
 }
 
 {
@@ -168,7 +168,7 @@
     @Face    {"BoldSlope"}
     @Name    {"DejaVuSerif-BoldItalic"}
     @Metrics {"DeSe-BoIt"}
-    @Mapping {"KOI8-Ru.LCM"}
+    @Mapping {"LtKOI8-Cu.LCM"}
 }
 
 # Serif Condensed
@@ -179,7 +179,7 @@
     @Face { "Base" }
     @Name { "DejaVuSerifCondensed" }
     @Metrics { "DeSeCo" }
-    @Mapping { "KOI8-Ru.LCM" }
+    @Mapping { "LtKOI8-Cu.LCM" }
 }
 
 {
@@ -189,7 +189,7 @@
     @Face { "Bold" }
     @Name { "DejaVuSerifCondensed-Bold" }
     @Metrics { "DeSeCo-Bo" }
-    @Mapping { "KOI8-Ru.LCM" }
+    @Mapping { "LtKOI8-Cu.LCM" }
 }
 
 {
@@ -199,7 +199,7 @@
     @Face { "Slope" }
     @Name { "DejaVuSerifCondensed-Italic" }
     @Metrics { "DeSeCo-It" }
-    @Mapping { "KOI8-Ru.LCM" }
+    @Mapping { "LtKOI8-Cu.LCM" }
 }
 
 {
@@ -209,6 +209,5 @@
     @Face { "BoldSlope" }
     @Name { "DejaVuSerifCondensed-BoldItalic" }
     @Metrics { "DeSeCo-BoIt" }
-    @Mapping { "KOI8-Ru.LCM" }
+    @Mapping { "LtKOI8-Cu.LCM" }
 }
-
