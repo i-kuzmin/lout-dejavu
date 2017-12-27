@@ -211,3 +211,217 @@
     @Metrics { "DeSeCo-BoIt" }
     @Mapping { "LtKOI8-Cu.LCM" }
 }
+
+# Sans latin1
+{
+    @FontDef
+    @Tag { "LaDejaVuSans-Base" }
+    @Family { "LaDejaVuSans" }
+    @Face { "Base" }
+    @Name { "LaDejaVuSans" }
+    @Metrics { "DeSa" }
+    @Mapping { "LtLatin1.LCM" }
+}
+
+{
+    @FontDef
+    @Tag { "LaDejaVuSans-Bold" }
+    @Family { "LaDejaVuSans" }
+    @Face { "Bold" }
+    @Name { "LaDejaVuSans-Bold" }
+    @Metrics { "DeSa-Bo" }
+    @Mapping { "LtLatin1.LCM" }
+}
+
+{
+    @FontDef
+    @Tag { "LaDejaVuSans-Slope" }
+    @Family { "LaDejaVuSans" }
+    @Face { "Slope" }
+    @Name { "LaDejaVuSans-Oblique" }
+    @Metrics { "DeSa-Ob" }
+    @Mapping { "LtLatin1.LCM" }
+}
+{
+    @FontDef
+    @Tag { "LaDejaVuSans-Light" }
+    @Family { "LaDejaVuSans" }
+    @Face { "Light" }
+    @Name { "LaDejaVuSans-ExtraLight" }
+    @Metrics { "DeSa-ExLt" }
+    @Mapping { "LtLatin1.LCM" }
+}
+
+{
+    @FontDef
+    @Tag { "LaDejaVuSans-BoldSlope" }
+    @Family { "LaDejaVuSans" }
+    @Face { "BoldSlope" }
+    @Name { "LaDejaVuSans-BoldOblique" }
+    @Metrics { "DeSa-BoOb" }
+    @Mapping { "LtLatin1.LCM" }
+}
+
+# Sans Condensed Latin1
+{
+    @FontDef
+    @Tag { "LaDejaVuSansCondensed-Base" }
+    @Family { "LaDejaVuSansCondensed" }
+    @Face { "Base" }
+    @Name { "LaDejaVuSansCondensed" }
+    @Metrics { "DeSaCo" }
+    @Mapping { "LtLatin1.LCM" }
+}
+
+{
+    @FontDef
+    @Tag { "LaDejaVuSansCondensed-Bold" }
+    @Family { "LaDejaVuSansCondensed" }
+    @Face { "Bold" }
+    @Name { "LaDejaVuSansCondensed-Bold" }
+    @Metrics { "DeSaCo-Bo" }
+    @Mapping { "LtLatin1.LCM" }
+}
+
+{
+    @FontDef
+    @Tag { "LaDejaVuSansCondensed-Slope" }
+    @Family { "LaDejaVuSansCondensed" }
+    @Face { "Slope" }
+    @Name { "LaDejaVuSansCondensed-Oblique" }
+    @Metrics { "DeSaCo-Ob" }
+    @Mapping { "LtLatin1.LCM" }
+}
+
+{
+    @FontDef
+    @Tag { "LaDejaVuSansCondensed-BoldSlope" }
+    @Family { "LaDejaVuSansCondensed" }
+    @Face { "BoldSlope" }
+    @Name { "LaDejaVuSansCondensed-BoldOblique" }
+    @Metrics { "DeSaCo-BoOb" }
+    @Mapping { "LtLatin1.LCM" }
+}
+
+# Sans Mono Latin1
+{
+    @FontDef
+    @Tag { "LaDejaVuSansMono-Base" }
+    @Family { "LaDejaVuSansMono" }
+    @Face { "Base" }
+    @Name { "LaDejaVuSansMono" }
+    @Metrics { "DeSaMo" }
+    @Mapping { "LtLatin1.LCM" }
+}
+
+{
+    @FontDef
+    @Tag { "LaDejaVuSansMono-Bold" }
+    @Family { "LaDejaVuSansMono" }
+    @Face { "Bold" }
+    @Name { "LaDejaVuSansMono-Bold" }
+    @Metrics { "DeSaMo-Bo" }
+    @Mapping { "LtLatin1.LCM" }
+}
+
+{
+    @FontDef
+    @Tag { "LaDejaVuSansMono-Slope" }
+    @Family { "LaDejaVuSansMono" }
+    @Face { "Slope" }
+    @Name { "LaDejaVuSansMono-Oblique" }
+    @Metrics { "DeSaMo-Ob" }
+    @Mapping { "LtLatin1.LCM" }
+}
+
+{
+    @FontDef
+    @Tag { "LaDejaVuSansMono-BoldSlope" }
+    @Family { "LaDejaVuSansMono" }
+    @Face { "BoldSlope" }
+    @Name { "LaDejaVuSansMono-BoldOblique" }
+    @Metrics { "DeSaMo-BoOb" }
+    @Mapping { "LtLatin1.LCM" }
+}
+
+# Serif Latin1
+{
+    @FontDef
+    @Tag     {"LaDejaVuSerif-Base"}
+    @Family  {"LaDejaVuSerif"}
+    @Face    {"Base"}
+    @Name    {"LaDejaVuSerif"}
+    @Metrics {"DeSe"}
+    @Mapping {"LtLatin1.LCM"}
+}
+
+{
+    @FontDef
+    @Tag     {"LaDejaVuSerif-Bold"}
+    @Family  {"LaDejaVuSerif"}
+    @Face    {"Bold"}
+    @Name    {"LaDejaVuSerif-Bold"}
+    @Metrics {"DeSe-Bo"}
+    @Mapping {"LtLatin1.LCM"}
+}
+
+{
+    @FontDef
+    @Tag     {"LaDejaVuSerif-Slope"}
+    @Family  {"LaDejaVuSerif"}
+    @Face    {"Slope"}
+    @Name    {"LaDejaVuSerif-Italic"}
+    @Metrics {"DeSe-It"}
+    @Mapping {"LtLatin1.LCM"}
+}
+
+{
+    @FontDef
+    @Tag     {"LaDejaVuSerif-BoldSlope"}
+    @Family  {"LaDejaVuSerif"}
+    @Face    {"BoldSlope"}
+    @Name    {"LaDejaVuSerif-BoldItalic"}
+    @Metrics {"DeSe-BoIt"}
+    @Mapping {"LtLatin1.LCM"}
+}
+
+# Serif Condensed Latin1
+{
+    @FontDef
+    @Tag { "LaDejaVuSerifCondensed-Base" }
+    @Family { "LaDejaVuSerifCondensed" }
+    @Face { "Base" }
+    @Name { "LaDejaVuSerifCondensed" }
+    @Metrics { "DeSeCo" }
+    @Mapping { "LtLatin1.LCM" }
+}
+
+{
+    @FontDef
+    @Tag { "LaDejaVuSerifCondensed-Bold" }
+    @Family { "LaDejaVuSerifCondensed" }
+    @Face { "Bold" }
+    @Name { "LaDejaVuSerifCondensed-Bold" }
+    @Metrics { "DeSeCo-Bo" }
+    @Mapping { "LtLatin1.LCM" }
+}
+
+{
+    @FontDef
+    @Tag { "LaDejaVuSerifCondensed-Slope" }
+    @Family { "LaDejaVuSerifCondensed" }
+    @Face { "Slope" }
+    @Name { "LaDejaVuSerifCondensed-Italic" }
+    @Metrics { "DeSeCo-It" }
+    @Mapping { "LtLatin1.LCM" }
+}
+
+{
+    @FontDef
+    @Tag { "LaDejaVuSerifCondensed-BoldSlope" }
+    @Family { "LaDejaVuSerifCondensed" }
+    @Face { "BoldSlope" }
+    @Name { "LaDejaVuSerifCondensed-BoldItalic" }
+    @Metrics { "DeSeCo-BoIt" }
+    @Mapping { "LtLatin1.LCM" }
+}
