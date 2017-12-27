@@ -218,7 +218,7 @@
     @Tag { "LaDejaVuSans-Base" }
     @Family { "LaDejaVuSans" }
     @Face { "Base" }
-    @Name { "LaDejaVuSans" }
+    @Name { "DejaVuSans" }
     @Metrics { "DeSa" }
     @Mapping { "LtLatin1.LCM" }
 }
@@ -228,7 +228,7 @@
     @Tag { "LaDejaVuSans-Bold" }
     @Family { "LaDejaVuSans" }
     @Face { "Bold" }
-    @Name { "LaDejaVuSans-Bold" }
+    @Name { "DejaVuSans-Bold" }
     @Metrics { "DeSa-Bo" }
     @Mapping { "LtLatin1.LCM" }
 }
@@ -238,7 +238,7 @@
     @Tag { "LaDejaVuSans-Slope" }
     @Family { "LaDejaVuSans" }
     @Face { "Slope" }
-    @Name { "LaDejaVuSans-Oblique" }
+    @Name { "DejaVuSans-Oblique" }
     @Metrics { "DeSa-Ob" }
     @Mapping { "LtLatin1.LCM" }
 }
@@ -247,7 +247,7 @@
     @Tag { "LaDejaVuSans-Light" }
     @Family { "LaDejaVuSans" }
     @Face { "Light" }
-    @Name { "LaDejaVuSans-ExtraLight" }
+    @Name { "DejaVuSans-ExtraLight" }
     @Metrics { "DeSa-ExLt" }
     @Mapping { "LtLatin1.LCM" }
 }
@@ -257,7 +257,7 @@
     @Tag { "LaDejaVuSans-BoldSlope" }
     @Family { "LaDejaVuSans" }
     @Face { "BoldSlope" }
-    @Name { "LaDejaVuSans-BoldOblique" }
+    @Name { "DejaVuSans-BoldOblique" }
     @Metrics { "DeSa-BoOb" }
     @Mapping { "LtLatin1.LCM" }
 }
@@ -268,7 +268,7 @@
     @Tag { "LaDejaVuSansCondensed-Base" }
     @Family { "LaDejaVuSansCondensed" }
     @Face { "Base" }
-    @Name { "LaDejaVuSansCondensed" }
+    @Name { "DejaVuSansCondensed" }
     @Metrics { "DeSaCo" }
     @Mapping { "LtLatin1.LCM" }
 }
@@ -278,7 +278,7 @@
     @Tag { "LaDejaVuSansCondensed-Bold" }
     @Family { "LaDejaVuSansCondensed" }
     @Face { "Bold" }
-    @Name { "LaDejaVuSansCondensed-Bold" }
+    @Name { "DejaVuSansCondensed-Bold" }
     @Metrics { "DeSaCo-Bo" }
     @Mapping { "LtLatin1.LCM" }
 }
@@ -298,7 +298,7 @@
     @Tag { "LaDejaVuSansCondensed-BoldSlope" }
     @Family { "LaDejaVuSansCondensed" }
     @Face { "BoldSlope" }
-    @Name { "LaDejaVuSansCondensed-BoldOblique" }
+    @Name { "DejaVuSansCondensed-BoldOblique" }
     @Metrics { "DeSaCo-BoOb" }
     @Mapping { "LtLatin1.LCM" }
 }
@@ -309,7 +309,7 @@
     @Tag { "LaDejaVuSansMono-Base" }
     @Family { "LaDejaVuSansMono" }
     @Face { "Base" }
-    @Name { "LaDejaVuSansMono" }
+    @Name { "DejaVuSansMono" }
     @Metrics { "DeSaMo" }
     @Mapping { "LtLatin1.LCM" }
 }
@@ -319,7 +319,7 @@
     @Tag { "LaDejaVuSansMono-Bold" }
     @Family { "LaDejaVuSansMono" }
     @Face { "Bold" }
-    @Name { "LaDejaVuSansMono-Bold" }
+    @Name { "DejaVuSansMono-Bold" }
     @Metrics { "DeSaMo-Bo" }
     @Mapping { "LtLatin1.LCM" }
 }
@@ -329,7 +329,7 @@
     @Tag { "LaDejaVuSansMono-Slope" }
     @Family { "LaDejaVuSansMono" }
     @Face { "Slope" }
-    @Name { "LaDejaVuSansMono-Oblique" }
+    @Name { "DejaVuSansMono-Oblique" }
     @Metrics { "DeSaMo-Ob" }
     @Mapping { "LtLatin1.LCM" }
 }
@@ -339,7 +339,7 @@
     @Tag { "LaDejaVuSansMono-BoldSlope" }
     @Family { "LaDejaVuSansMono" }
     @Face { "BoldSlope" }
-    @Name { "LaDejaVuSansMono-BoldOblique" }
+    @Name { "DejaVuSansMono-BoldOblique" }
     @Metrics { "DeSaMo-BoOb" }
     @Mapping { "LtLatin1.LCM" }
 }
@@ -350,7 +350,7 @@
     @Tag     {"LaDejaVuSerif-Base"}
     @Family  {"LaDejaVuSerif"}
     @Face    {"Base"}
-    @Name    {"LaDejaVuSerif"}
+    @Name    {"DejaVuSerif"}
     @Metrics {"DeSe"}
     @Mapping {"LtLatin1.LCM"}
 }
@@ -360,7 +360,7 @@
     @Tag     {"LaDejaVuSerif-Bold"}
     @Family  {"LaDejaVuSerif"}
     @Face    {"Bold"}
-    @Name    {"LaDejaVuSerif-Bold"}
+    @Name    {"DejaVuSerif-Bold"}
     @Metrics {"DeSe-Bo"}
     @Mapping {"LtLatin1.LCM"}
 }
@@ -370,7 +370,7 @@
     @Tag     {"LaDejaVuSerif-Slope"}
     @Family  {"LaDejaVuSerif"}
     @Face    {"Slope"}
-    @Name    {"LaDejaVuSerif-Italic"}
+    @Name    {"DejaVuSerif-Italic"}
     @Metrics {"DeSe-It"}
     @Mapping {"LtLatin1.LCM"}
 }
@@ -380,7 +380,7 @@
     @Tag     {"LaDejaVuSerif-BoldSlope"}
     @Family  {"LaDejaVuSerif"}
     @Face    {"BoldSlope"}
-    @Name    {"LaDejaVuSerif-BoldItalic"}
+    @Name    {"DejaVuSerif-BoldItalic"}
     @Metrics {"DeSe-BoIt"}
     @Mapping {"LtLatin1.LCM"}
 }
@@ -391,7 +391,7 @@
     @Tag { "LaDejaVuSerifCondensed-Base" }
     @Family { "LaDejaVuSerifCondensed" }
     @Face { "Base" }
-    @Name { "LaDejaVuSerifCondensed" }
+    @Name { "DejaVuSerifCondensed" }
     @Metrics { "DeSeCo" }
     @Mapping { "LtLatin1.LCM" }
 }
@@ -401,7 +401,7 @@
     @Tag { "LaDejaVuSerifCondensed-Bold" }
     @Family { "LaDejaVuSerifCondensed" }
     @Face { "Bold" }
-    @Name { "LaDejaVuSerifCondensed-Bold" }
+    @Name { "DejaVuSerifCondensed-Bold" }
     @Metrics { "DeSeCo-Bo" }
     @Mapping { "LtLatin1.LCM" }
 }
@@ -411,7 +411,7 @@
     @Tag { "LaDejaVuSerifCondensed-Slope" }
     @Family { "LaDejaVuSerifCondensed" }
     @Face { "Slope" }
-    @Name { "LaDejaVuSerifCondensed-Italic" }
+    @Name { "DejaVuSerifCondensed-Italic" }
     @Metrics { "DeSeCo-It" }
     @Mapping { "LtLatin1.LCM" }
 }
@@ -421,7 +421,7 @@
     @Tag { "LaDejaVuSerifCondensed-BoldSlope" }
     @Family { "LaDejaVuSerifCondensed" }
     @Face { "BoldSlope" }
-    @Name { "LaDejaVuSerifCondensed-BoldItalic" }
+    @Name { "DejaVuSerifCondensed-BoldItalic" }
     @Metrics { "DeSeCo-BoIt" }
     @Mapping { "LtLatin1.LCM" }
 }
